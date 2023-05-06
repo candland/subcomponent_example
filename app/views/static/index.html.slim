@@ -1,0 +1,21 @@
+
+h1 Example
+
+
+= component :button, text: 'Click me'
+= button text: 'Click me method missing'
+
+= comp :button do |c|
+  - c.text = "Click me too too"
+
+= comp :button do
+  | Click me too
+
+= comp :card do |c|
+  - c.header text: "Header1"
+  - c.header text: "Header2"
+
+  p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.
+
+= comp :card do |c|
+  p NO HEADER Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus.

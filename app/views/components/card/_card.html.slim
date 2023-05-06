@@ -1,0 +1,13 @@
+div
+  p
+    | has header?
+    =< this.header?
+  = this.render :header
+
+  = this.render_all :header
+
+  ul
+    - this.components(:header).map do |c|
+      li = c.render
+
+  = this.yield
