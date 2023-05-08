@@ -2,7 +2,7 @@ PATH
   remote: ../subcomponent
   specs:
     subcomponent (0.1.0)
-      rails (>= 7.0.4.3)
+      rails (>= 7.0)
 
 GEM
   remote: https://rubygems.org/
